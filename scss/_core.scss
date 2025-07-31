@@ -1,0 +1,29 @@
+$mobile: 480px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1280px;
+$widescreen: 1440px;
+
+$container-max-width: 1180px;
+$container-padding-x: 15px;
+
+.container {
+	max-width: calc($container-max-width + $container-padding-x * 2);
+	padding-inline: $container-padding-x;
+	margin-inline: auto;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+

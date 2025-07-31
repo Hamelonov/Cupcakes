@@ -1,0 +1,13 @@
+@import 'reset.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
+@import 'core.scss';
+
+// Components
+@import 'blocks/intro.scss';
+@import 'blocks/orders.scss';
+@import 'blocks/individual.scss';
+@import 'blocks/workers.scss';
+@import 'blocks/reviews.scss';
+@import 'blocks/portfolio.scss';
+@import 'blocks/footer.scss';

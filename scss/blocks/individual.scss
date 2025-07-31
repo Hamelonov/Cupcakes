@@ -1,0 +1,56 @@
+.individual {
+	background: url('../img/individual/cloud-top.png') top/100% no-repeat,
+		url('../img/individual/cloud-bottom.png') bottom/100% no-repeat,
+		url('../img/individual/phone.png') left 0 bottom 0 no-repeat,
+		url('../img/individual/leaf.png') 18.54% 360px no-repeat,
+		url('../img/individual/berry.png') right 7.76% top 294px no-repeat;
+	background-color: #081130;
+	min-height: 1352px;
+	padding-top: 440px;
+
+	@media (max-width: $tablet) {
+		padding-top: 140px;
+		padding-bottom: 140px;
+		min-height: initial;
+	}
+
+	&__body {
+		text-align: right;
+
+		@media (max-width: $laptop) {
+			text-align: center;
+		}
+	}
+
+	&__content {
+		max-width: 480px;
+		display: inline-block;
+		text-align: left;
+
+		@media (max-width: $widescreen) {
+			background: rgba(8, 17, 48, 0.6);
+			padding: 20px;
+			border-radius: 1rem;
+		}
+	}
+
+	&__subtitle {
+		margin-bottom: 24px;
+	}
+
+	&__title {
+		margin-bottom: 24px;
+	}
+
+	&__text {
+		font-size: 21px;
+		line-height: 143%;
+		letter-spacing: -0.01em;
+		color: #fff;
+		margin-bottom: 40px;
+	}
+
+	&__btn {
+		@include btn();
+	}
+}
